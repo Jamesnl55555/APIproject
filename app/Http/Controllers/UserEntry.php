@@ -15,7 +15,7 @@ class UserEntry extends Controller
         ]);
 
         return response()->json([
-            'message' => 'User entry received successfully.',
+            'message' => 'True',
             'name' => $user->name,
         ]);
     }
